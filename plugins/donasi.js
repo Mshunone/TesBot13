@@ -11,21 +11,20 @@ let handler = async (m, { conn, usedPrefix }) => {
     const detek = Math.floor( Kurang % (1000 * 60) / 1000)
   let vn = `https://github.com/saipulanuar/Api-Github/raw/main/audio/Donasiku.mp3`
   conn.sendButton(m.chat, `
-┏━ꕥ〔 *Donasi • Dana* 〕ꕥ━⬣
-┃✾ Pulsa  [085641142178]
-┃✾ Gopay  [082110711736]
-┃✾ Saweria  [Kapan Kapan ada:v]
-┗━━━━ꕥ
-┏━━ꕥ〔 *NOTE* 〕ꕥ━⬣
-┃ Ingin donasi? Wa.me/6285641142178
+┌─「 Donasi • Pulsa 」
+│ • Ga dulu coy
+❏────
+┌─「 Donasi • Non Pulsa 」
+│ • Chek Katalog
+┃ Ingin donasi? Chek katalog
 ┃ _Hasil donasi akan digunakan buat sewa_
-┃ _atau beli *RDP/VPS* agar bot bisa jalan_
+┃ _atau beli *RDP/PANEL* agar bot bisa jalan_
 ┃ _24jam tanpa kendala_
-┗━━━━ꕥ
+┗━━━━•
 `.trim(), wm, [['Owner',`/owner`]],m) // Tambah sendiri kalo mau
 conn.sendFile(m.chat, vn, 'haori.mp3', null, m, true, {
 type: 'audioMessage', 
-ptt: true, contextInfo:{ externalAdReply: { title:  Owner : Donasi suuuk`, body: `Join GC Xia ya`, sourceUrl: 'https://chat.whatsapp.com/GeWPLmclHaVHsF0GymCcJz', thumbnail: await (await fetch('https://i.pinimg.com/originals/50/3a/f4/503af49701fa85b7c938d8e54ffa1549.jpg')).buffer(),}} 
+ptt: true, contextInfo:{ externalAdReply: { title: `💌 Owner : Donasi suuuk`, body: `Join GC Xia ya`, sourceUrl: 'https://chat.whatsapp.com/GeWPLmclHaVHsF0GymCcJz', thumbnail: await (await fetch('https://i.pinimg.com/originals/50/3a/f4/503af49701fa85b7c938d8e54ffa1549.jpg')).buffer(),}} 
      }) 
 }
 handler.command = /^(donasi|dns)$/i
