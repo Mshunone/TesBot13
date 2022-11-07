@@ -415,7 +415,7 @@ import db from '../lib/database.js'
       global.opts['swonly'] = isEnable
       break
               default: 
-       if (!/[01]/.test(command)) return conn.sendButton(m.chat, `*〔 llı OPTIONS ıll 〕*`, `
+       if (!/[01]/.test(command)) return conn.sendButton(m.chat, `*〔 ll- OPTIONS -ll 〕*`, `
     
     
 ꒦ ͝ ꒷ ͝ ꒦ ͝ ꒷ ͝ ꒦ ͝ ꒷ ͝ ꒦ ͝ ꒷ ͝ ꒦ ͝ ꒷ ͝ ꒦ ͝ ꒷ ͝ ꒦ ͝ ꒷ ͝ ꒦
@@ -465,10 +465,10 @@ clear
 getmsg
 desc
   
-▶︎ ━━━━━━━•──────────── 
+'\n ❙❘❙❙❘❙❚❙❘❙❙❚❙❘❙❘❙❚❙❘❙❙❚❙❘❙❙❘❙❚❙❘ \n     ' 
       ⇆ㅤ◁ㅤ ❚❚ㅤ ▷ㅤ↻
 
-📜 *TUTORIAL*
+📜 *TUTORIAL KH DEK*
  
 𝍤 ON: ${usedPrefix}on welcome ❫
 
