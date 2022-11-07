@@ -25,7 +25,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 `.trim(), wm, [['Owner',`/owner`]],m) // Tambah sendiri kalo mau
 conn.sendFile(m.chat, vn, 'haori.mp3', null, m, true, {
 type: 'audioMessage', 
-ptt: true, contextInfo:{ externalAdReply: { title: `💌 Ultah Owner : ISI INI`, body: `Join GC Xia ya`, sourceUrl: 'https://chat.whatsapp.com/GeWPLmclHaVHsF0GymCcJz', thumbnail: await (await fetch('https://i.pinimg.com/originals/50/3a/f4/503af49701fa85b7c938d8e54ffa1549.jpg')).buffer(),}} 
+ptt: true, contextInfo:{ externalAdReply: { title:  Owner : Donasi suuuk`, body: `Join GC Xia ya`, sourceUrl: 'https://chat.whatsapp.com/GeWPLmclHaVHsF0GymCcJz', thumbnail: await (await fetch('https://i.pinimg.com/originals/50/3a/f4/503af49701fa85b7c938d8e54ffa1549.jpg')).buffer(),}} 
      }) 
 }
 handler.command = /^(donasi|dns)$/i
