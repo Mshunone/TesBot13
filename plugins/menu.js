@@ -38,8 +38,7 @@ let tags = {
   '': 'No Category',
 }
 const defaultMenu = {
-  before: `┏━━━ꕥ〔 *llı INFO USER ıll* 〕ꕥ━⬣ 
-┃✾ *Name:* %name
+  before: `┏━━━ꕥ┅═❏ *DASHBOARD BOT* ❏═┅ꕥ━⬣ 
 ┃✾ *Tag:* %name
 ┃✾ *Status:* %prems
 ┃✾ *Limit:* %limit
@@ -47,31 +46,26 @@ const defaultMenu = {
 ┃✾ *Level:* %level [ %xp4levelup Xp For Levelup]
 ┃✾ *Xp:* %exp / %maxexp
 ┃✾ *Total Xp:* %totalexp
-┗━ꕥ
-┏━ꕥ〔 *llı TODAY ıll* 〕ꕥ━⬣
+┗━ ⳹
+┏━ꕥ┅═❏ *TODAY* ❏═┅ꕥ━⬣
 ┃✾ *Days:* %week %weton
 ┃✾ *Date:* %date
-┃✾ *Jam:* ${wib2} WIB
-┃✾ *Islamic Date:* %dateIslamic
-┗━ꕥ
-┏━ꕥ〔 *llı INFO ıll* 〕ꕥ━⬣
+┗━ ⳹
+┏━ꕥ┅═❏ *INFO BOT* ❏═┅ꕥ━⬣
 ┃✾ *Bot Name:* %me
 ┃✾ *Mode:* Public
-┃✾ *Platform:* Linux
-┃✾ *Type:* Node.Js
-┃✾ *Baileys:* Multi Device
 ┃✾ *Uptime:* %muptime
-┃✾ *Database:* %rtotalreg dari %totalreg
-┗━ꕥ
-┏━ꕥ〔 *llı INFO COMMAND ıll* 〕ꕥ━⬣
+┗━ ⳹
+┏━┅═❏ *INFORMASI CMD KIDS* ❏═┅━⬣
 ┃✾ *🅟* = Premium
 ┃✾ *🅛* = Limit
-┗━ꕥ
+┗━ ⳹
+'\n ❙❘❙❙❘❙❚❙❘❙❙❚❙❘❙❘❙❚❙❘❙❙❘❙❚❙❘❙❙❚❙❘❙❙❘❙❚❙❘ \n     '
 %readmore`.trimStart(),
-  header: '┏━━━ꕥ〔 *%category* 〕ꕥ━⬣',
+  header: '┏━━━〔 *%category* 〕━✥',
     body: '┃✾ %cmd %islimit %isPremium',
-  footer: '┗━━━━━━━━━ꕥ\n',
-  after: `  ${'✧\n┏━📮 *Note* :\n┃ 𝙹𝙸𝙺𝙰 𝙼𝙴𝙻𝙰𝙽𝙶𝙶𝙰𝚁 𝚃𝙾𝚂 𝙰𝙺𝙰𝙽 𝙳𝙸 𝙱𝙰𝙽 𝙿𝙴𝚁𝙼𝙰𝙽𝙴𝙽! ^_^\n┗━━━━━━━━━━━━━━━━━━━ꕥ'}`,
+  footer: '┗━━━━━━━━━━┈─✧\n',
+  after: `  ${'✧\n┏━📮 *Note* :\n┃ JIKA MENGGUNAKAN NYA TAK BIJAK AKAN DI BANNED\n┗━━━━━━━━━━━━━━━━━━━❏'}`,
 }
 let handler = async (m, { conn, usedPrefix, __dirname }) => {
   try {
