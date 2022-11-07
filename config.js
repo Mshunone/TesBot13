@@ -27,32 +27,32 @@ let wibh = moment.tz('Asia/Jakarta').format('HH')
       
 
 /*============== INFO OWNER ==============*/
-global.sig = 'https://instagram.com/kahfi_maker'
-global.syt = 'https://youtube.com/channel/UC6GPl9xMWL61NAXQb3HBrRw'
-global.sgh = 'https://github.com/Frezzy-XD'
-global.sgc = 'https://chat.whatsapp.com/I0prmYcZhKrCye0kiclzyt'
+global.sig = 'https://instagram.com'
+global.syt = 'https://youtube.com'
+global.sgh = 'https://github.com/Kasanstore7'
+global.sgc = 'https://chat.whatsapp.com/GeWPLmclHaVHsF0GymCcJz'
 global.swa = 'wa.me/6285380166282'
 global.swb = 'https://'
 global.snh = 'https://nhentai.net/g/365296/' //Make ini aja gausah di ganti.
 
 /*============== PAYMENT ==============*/
-global.pdana = '085380166282'
+global.pdana = 'XXXXX'
 global.povo = '-'
-global.pgopay = '-'
-global.ppulsa = '085295374964'
-global.ppulsa2 = '085295374964'
+global.pgopay = '082110711736'
+global.ppulsa = '085641142178'
+global.ppulsa2 = '083192405363'
 global.psaweria = 'https://saweria.co/MaxxyBotz'
 
 /*============== NOMOR ==============*/
-global.nomorbot = '6285295374964'
-global.nomorown = '6285380166282'
-global.namebot = 'ʏᴛ ᴍᴀxxʏ ʙᴏᴛᴢ✓'
-global.nameown = 'ᴋᴀʜꜰɪ ᴍᴀᴋᴇʀ✓'
+global.nomorbot = '6282110711736'
+global.nomorown = '6285641142178'
+global.namebot = 'XiaoSan Bot
+global.nameown = 'Kasan'
 
 
 /*============== STAFF ==============*/
 global.owner = [
-  ['6285380166282', 'ᴋᴀʜꜰɪ ᴍᴀᴋᴇʀ✓', 'true']
+  ['6285641142178', 'Xiao san', 'true']
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 global.mods = [] // Want some help?
@@ -102,16 +102,16 @@ global.bear = 'VBkM7rbU'
 
 
 /*============== WATERMARK ==============*/
-global.wm = 'ʏᴛ ᴍᴀxxʏ ʙᴏᴛᴢ✓ | By ᴋᴀʜꜰɪ ᴍᴀᴋᴇʀ✓' //Main Watermark
-global.wm2 = 'ᴋᴀʜꜰɪ ᴍᴀᴋᴇʀ✓'
-global.wm3 = 'ʏᴛ ᴍᴀxxʏ ʙᴏᴛᴢ✓ | By ᴋᴀʜꜰɪ ᴍᴀᴋᴇʀ✓'
+global.wm = 'XiaoSan bot | By Kasan' //Main Watermark
+global.wm2 = 'XiaoSan Bot'
+global.wm3 = 'XiaoSan Bot | Wa.me/6285641142178'
 global.botdate = `⻝ 𝗗𝗮𝘁𝗲: ${week} ${date}\n⻝ 𝗧𝗶𝗺𝗲: ${wktuwib}`
 global.bottime = `⻝ 𝗧 𝗜 𝗠 𝗘 : ${wktuwib}`
-global.titlebot = `ʏᴛ ᴍᴀxxʏ ʙᴏᴛᴢ✓ | ʙʏ ${global.nameown}`
-global.author = 'ᴋᴀʜꜰɪ ᴍᴀᴋᴇʀ✓' 
-global.packname = 'ᴋᴀʜꜰɪ ᴍᴀᴋᴇʀ✓'
+global.titlebot = `Xiao San Bot | ʙʏ ${global.nameown}`
+global.author = 'Xiao San' 
+global.packname = 'Bot By Kasan Store'
 global.danied = '✘ 𝗘𝗥𝗢𝗥 𝟰𝟬𝟰'
-global.ultahowner = 'November 8 2022'
+global.ultahowner = 'Agustus 9 2009'
 
 
 /*============== LOGO ==============*/
@@ -126,10 +126,10 @@ global.thumbWarn = 'https://telegra.ph/file/77d11b06617f0797a45ac.jpg'
 global.botintro = 'Hallo, Kenalin saya Maxxy BOT Saya akan membantu Anda kapan pun & Dimana pun, Saya asisten bot WhatsApp yang di buat oleh *ᴋᴀʜꜰɪ ᴍᴀᴋᴇʀ✓* Saya di rilis pada tanggal\n🗓 ️_07/11/2022_'
 global.intro = 'https://telegra.ph/file/6ab4daac226292a112540.jpg'
 /*============== GLOBAL BIO ==============*/
-global.nameowner = 'ᴋᴀʜꜰɪ ᴍᴀᴋᴇʀ✓'
-global.umurowner = '17'
-global.asalowner = 'Amerika Serikat, New York'
-global.nomorowner = 'wa.me/6285380166282'
+global.nameowner = 'Kasan'
+global.umurowner = '14'
+global.asalowner = 'Brebes Jawa tengah, Indonesia'
+global.nomorowner = 'wa.me/628564114289'
 global.pacarowner = 'Kepo amat sih;v'
 
 /*============== TEXT ==============*/
