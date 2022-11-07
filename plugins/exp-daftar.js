@@ -81,10 +81,10 @@ const listMessage = {
 │▸ *sɴ:* ${sn}
 ╰═┅═━––––––๑
 
-ꜱᴜʙꜱᴄʀɪʙᴇ ʏᴛ: ᴹᴿ᭄ King Of Bear ×፝֟͜×
+ꜱᴜʙꜱᴄʀɪʙᴇ ʏᴛ: ᴹᴿ᭄ XioSan Bot ×፝֟͜×
 `
   let buttonMessage= {
-'document':{'url':'https://youtu.be/pwLZpdfO8AU'},
+'document':{'url':'https://youtube.com/shorts/vUOipISAheA?feature=share'},
 'mimetype':global.ddocx,
 'fileName':'▢━━━━「 Registration 」━━━━▢',
 'fileLength':fsizedoc,
@@ -93,7 +93,7 @@ const listMessage = {
 'forwardingScore':555,
 'isForwarded':true,
 'externalAdReply':{
-'mediaUrl':'https://youtu.be/pwLZpdfO8AU',
+'mediaUrl':'https://https://youtube.com/channel/UC2ksImByAMVpCuP6v_PUVbg',
 'mediaType':2,
 'previewType':'pdf',
 'title':global.titlebot,
