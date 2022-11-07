@@ -37,7 +37,7 @@ export async function handler(chatUpdate) {
         if (!m)
             return
         m.exp = 0
-        m.limit = false
+        m.limit = true
         try {
             // TODO: use loop to insert data instead of this
             let user = global.db.data.users[m.sender]
@@ -57,11 +57,11 @@ export async function handler(chatUpdate) {
                 if (!isNumber(user.laper)) 
                     user.laper = 100
                 if (!isNumber(user.limit))
-                    user.limit = 10
+                    user.limit = 20
                 if (!isNumber(user.lastclaim))
                     user.lastclaim = 0
                 if (!isNumber(user.joinlimit)) 
-                    user.joinlimit = 1
+                    user.joinlimit = 0
                 if (!isNumber(user.pc)) 
                     user.pc = 0
                 if (!isNumber(user.ojekk)) 
@@ -127,7 +127,7 @@ export async function handler(chatUpdate) {
                     user.petFood = 0
 
                 if (!isNumber(user.antispam)) 
-                    user.antispam = 0
+                    user.antispam = 5
                 if (!isNumber(user.antispamlastclaim)) 
                     user.antispamlastclaim = 0
 
@@ -359,7 +359,7 @@ if (!isNumber(user.ayam)) user.ayam = 0
                     lastclaim: 0,
                     registered: false,
                     spammer: 0,
-                    antispam: 0,
+                    antispam: 5,
                     antispamlastclaim: 0,
                     name: m.name,
                     pasangan: '',
@@ -569,7 +569,7 @@ esteh: 0,
                 if (!('delete' in chat))
                     chat.delete = true
                 if (!('antiLink' in chat))
-                    chat.antiLink = false
+                    chat.antiLink = true
                 if (!('antiSticker' in chat)) 
                     chat.antiSticker = false
                 if (!('viewonce' in chat))
@@ -594,7 +594,7 @@ esteh: 0,
                     sPromote: '',
                     sDemote: '',
                     delete: true,
-                    antiLink: false,
+                    antiLink: true,
                     antiSticker: false,
                     viewonce: false,
                     antiBadword: false,
@@ -611,7 +611,7 @@ esteh: 0,
     })
 }
           global.kontak2 = [
-        ['6288279268363', 'ᴹᴿ᭄ King Of Bearr ×፝֟͜×', 'Creator Bot', 'Creator Bot', true],
+        ['6283805685278', 'Marxell', 'Creator Bot', 'Creator Bot', true],
         [`${nomorown}`, `${nameown}`, 'Owner Bot', 'Owner Bot', true]
         ]
             let settings = global.db.data.settings[this.user.jid]
@@ -823,11 +823,11 @@ esteh: 0,
                 m.isCommand = true
                 let xp = 'exp' in plugin ? parseInt(plugin.exp) : 17 // XP Earning per command
                 if (xp > 200)
-                    this.sendButton(m.chat, `[❗] *Sepertinya Anda Bermain Curang, Menggunakan Calculator*`, author, null, [['Buy Limit', '/buy limit'], ['Menu', '/menu']] , m)
+                    this.sendButton(m.chat, `[❗] *SUS lu Keknya Curang, Pakai Calculator*`, author, null, [['Buy Limit', '/buy limit'], ['Menu', '/menu']] , m)
                 else
                     m.exp += xp
                 if (!isPrems && plugin.limit && global.db.data.users[m.sender].limit < plugin.limit * 1) {
-                    this.sendButton(m.chat, `[❗] *Limit Anda Habis, Beberapa Command Tidak Bisa Di Akses*`, author, null, [['Buy Limit', '/buy limit'], ['Menu', '/menu']] , m)
+                    this.sendButton(m.chat, `[❗] *Limit Lu Habis, Beberapa Command Tidak Bisa Di Akses*`, author, null, [['Buy Limit', '/buy limit'], ['Menu', '/menu']] , m)
                     continue // Limit habis
                 }
                 if (plugin.level > _user.level) {
