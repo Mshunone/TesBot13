@@ -11,39 +11,39 @@ let handler = async function (m, { text, usedPrefix, command }) {
 	{
 	title: "📆Select Your Age Here !",
 	rows: [
-	    {title: "📛Random Years", rowId: '.daftar ' + namae + '.' + pickRandom(['30','29','28','27','26','25','24','23','22','21','20','19','18','17','16','15','14','13','12','11','10','9'])}
+	    {title: "Random Years", rowId: '.daftar ' + namae + '.' + pickRandom(['30','29','28','27','26','25','24','23','22','21','20','19','18','17','16','15','14','13','12','11','10','9'])}
 	]
     },
     {
-	title: "🎀O L D",
+	title: "O L D",
 	rows: [
-	    {title: "🌸30• Years ʚĭɞ", rowId: '.daftar ' + namae + '.30 '},
-	    {title: "🎐29• Years ʚĭɞ", rowId: '.daftar ' + namae + '.29 '},
-	    {title: "🌸28• Years ʚĭɞ", rowId: '.daftar ' + namae + '.28 '},
-	{title: "🎐27• Years ʚĭɞ", rowId: '.daftar ' + namae + '.27 '},
-	{title: "🌸26• Years ʚĭɞ", rowId: '.daftar ' + namae + '.26 '},
-	{title: "🎐25• Years ʚĭɞ", rowId: '.daftar ' + namae + '.25 '},
-	{title: "🌸24• Years ʚĭɞ", rowId: '.daftar ' + namae + '.24 '},
-	{title: "🎐23• Years ʚĭɞ", rowId: '.daftar ' + namae + '.23 '},
-	{title: "🌸22• Years ʚĭɞ", rowId: '.daftar ' + namae + '.22 '},
-	{title: "🎐21• Years ʚĭɞ", rowId: '.daftar ' + namae + '.21 '}
+	    {title: "30 Years", rowId: '.daftar ' + namae + '.30 '},
+	    {title: "29 Years", rowId: '.daftar ' + namae + '.29 '},
+	    {title: "28 Years", rowId: '.daftar ' + namae + '.28 '},
+	{title: "27 Years", rowId: '.daftar ' + namae + '.27 '},
+	{title: "26 Years", rowId: '.daftar ' + namae + '.26 '},
+	{title: "25 Years", rowId: '.daftar ' + namae + '.25 '},
+	{title: "24 Years", rowId: '.daftar ' + namae + '.24 '},
+	{title: "23 Years", rowId: '.daftar ' + namae + '.23 '},
+	{title: "22 Years", rowId: '.daftar ' + namae + '.22 '},
+	{title: "21 Years", rowId: '.daftar ' + namae + '.21 '}
 	]
     },
     {
-	title: "🎀Y O U N G",
+	title: "Y O U N G",
 	rows: [
-	    {title: "🌸20• Years ʚĭɞ", rowId: '.daftar ' + namae + '.20 '},
-	    {title: "🎐19• Years ʚĭɞ", rowId: '.daftar ' + namae + '.19 '},
-	    {title: "🌸18• Years ʚĭɞ", rowId: '.daftar ' + namae + '.18 '},
-	{title: "🎐17• Years ʚĭɞ", rowId: '.daftar ' + namae + '.17 '},
-	{title: "🌸16• Years ʚĭɞ", rowId: '.daftar ' + namae + '.16 '},
-	{title: "🎐15• Years ʚĭɞ", rowId: '.daftar ' + namae + '.15 '},
-	{title: "🌸14• Years ʚĭɞ", rowId: '.daftar ' + namae + '.14 '},
-	{title: "🎐13• Years ʚĭɞ", rowId: '.daftar ' + namae + '.13 '},
-	{title: "🌸12• Years ʚĭɞ", rowId: '.daftar ' + namae + '.12 '},
-	{title: "🎐11• Years ʚĭɞ", rowId: '.daftar ' + namae + '.11 '},
-	{title: "🌸10• Years ʚĭɞ", rowId: '.daftar ' + namae + '.10 '},
-	{title: "🎐9• Years ʚĭɞ", rowId: '.daftar ' + namae + '.9 '}
+	    {title: "20 Years", rowId: '.daftar ' + namae + '.20 '},
+	    {title: "19 Years", rowId: '.daftar ' + namae + '.19 '},
+	    {title: "18 Years", rowId: '.daftar ' + namae + '.18 '},
+	{title: "17 Years", rowId: '.daftar ' + namae + '.17 '},
+	{title: "16 Years", rowId: '.daftar ' + namae + '.16 '},
+	{title: "15 Years", rowId: '.daftar ' + namae + '.15 '},
+	{title: "14 Years", rowId: '.daftar ' + namae + '.14 '},
+	{title: "13 Years", rowId: '.daftar ' + namae + '.13 '},
+	{title: "12 Years", rowId: '.daftar ' + namae + '.12 '},
+	{title: "11 Years", rowId: '.daftar ' + namae + '.11 '},
+	{title: "10 Years", rowId: '.daftar ' + namae + '.10 '},
+	{title: "9 Years", rowId: '.daftar ' + namae + '.9 '}
 	]
     },
 ]
@@ -81,10 +81,9 @@ const listMessage = {
 │▸ *sɴ:* ${sn}
 ╰═┅═━––––––๑
 
-ꜱᴜʙꜱᴄʀɪʙᴇ ʏᴛ: ᴹᴿ᭄ XioSan Bot ×፝֟͜×
 `
   let buttonMessage= {
-'document':{'url':'https://youtube.com/shorts/vUOipISAheA?feature=share'},
+'document':{'url':'https://youtube.com/shorts'},
 'mimetype':global.ddocx,
 'fileName':'▢━━━━「 Registration 」━━━━▢',
 'fileLength':fsizedoc,
@@ -93,18 +92,18 @@ const listMessage = {
 'forwardingScore':555,
 'isForwarded':true,
 'externalAdReply':{
-'mediaUrl':'https://https://youtube.com/channel/UC2ksImByAMVpCuP6v_PUVbg',
+'mediaUrl':'https://https://youtube.com',
 'mediaType':2,
 'previewType':'pdf',
 'title':global.titlebot,
 'body':global.titlebot,
-'thumbnail':await(await fetch('https://telegra.ph/file/6ab4daac226292a112540.jpg')).buffer(),
-'sourceUrl':'https://youtu.be/pwLZpdfO8AU'}},
+'thumbnail':await(await fetch('https://i.pinimg.com/originals/50/3a/f4/503af49701fa85b7c938d8e54ffa1549.jpg')).buffer(),
+'sourceUrl':'https://youtu.be'}},
 'caption':cap,
 'footer':botdate,
 'buttons':[
 {'buttonId':'.menu','buttonText':{'displayText':'▣ Mҽɳυ ▣'},'type':1},
-{'buttonId':'.salken','buttonText':{'displayText':'🎈Hαʅʅσ'},'type':1}
+{'buttonId':'.salken','buttonText':{'displayText':'Hαʅʅσ'},'type':1}
 ],
 'headerType':6}
     await conn.sendMessage(m.chat,buttonMessage, { quoted:m})
