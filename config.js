@@ -27,32 +27,32 @@ let wibh = moment.tz('Asia/Jakarta').format('HH')
       
 
 /*============== INFO OWNER ==============*/
-global.sig = 'https://instagram.com'
+global.sig = 'https://chat.whatsapp.com/GeWPLmclHaVHsF0GymCcJz'
 global.syt = 'https://youtube.com'
-global.sgh = 'https://github.com/Kasanstore7'
+global.sgh = 'https://github.com/Mshunone'
 global.sgc = 'https://chat.whatsapp.com/GeWPLmclHaVHsF0GymCcJz'
-global.swa = 'wa.me/6285380166282'
-global.swb = 'https://'
+global.swa = 'wa.me/6283805685278'
+global.swb = 'https://chat.whatsapp.com/GeWPLmclHaVHsF0GymCcJz'
 global.snh = 'https://nhentai.net/g/365296/' //Make ini aja gausah di ganti.
 
 /*============== PAYMENT ==============*/
-global.pdana = 'XXXXX'
-global.povo = '-'
-global.pgopay = '082110711736'
-global.ppulsa = '085641142178'
-global.ppulsa2 = '083192405363'
-global.psaweria = 'https://saweria.co/MaxxyBotz'
+global.pdana = '---'
+global.povo = '---'
+global.pgopay = '---'
+global.ppulsa = '---'
+global.ppulsa2 = '---'
+global.psaweria = 'https://i.pinimg.com/564x/57/5c/8c/575c8cf89faea4a22e2bb0eacc12ffcc.jpg'
 
 /*============== NOMOR ==============*/
-global.nomorbot = '6282110711736'
+global.nomorbot = '6283111136642'
 global.nomorown = '6285641142178'
-global.namebot = 'XiaoSan Bot'
-global.nameown = 'Kasan'
+global.namebot = '©Saxia˘Botz'
+global.nameown = 'KaXel-XD'
 
 
 /*============== STAFF ==============*/
 global.owner = [
-  ['6285641142178', 'Xiao san', 'true']
+  ['6285641142178', 'KaXel-XD', 'true']
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 global.mods = [] // Want some help?
@@ -102,23 +102,23 @@ global.bear = 'VBkM7rbU'
 
 
 /*============== WATERMARK ==============*/
-global.wm = 'XiaoSan bot | By Kasan' //Main Watermark
-global.wm2 = 'XiaoSan Bot'
-global.wm3 = 'XiaoSan Bot | Wa.me/6285641142178'
+global.wm = '©Saxia˘Botz | By KaXel-XD' //Main Watermark
+global.wm2 = '©Saxia˘Botz'
+global.wm3 = '©Saxia˘Botz | Wa.me/6283111136642'
 global.botdate = `⻝ 𝗗𝗮𝘁𝗲: ${week} ${date}\n⻝ 𝗧𝗶𝗺𝗲: ${wktuwib}`
 global.bottime = `⻝ 𝗧 𝗜 𝗠 𝗘 : ${wktuwib}`
-global.titlebot = `Xiao San Bot | ʙʏ ${global.nameown}`
-global.author = 'Xiao San' 
-global.packname = 'Bot By Kasan Store'
-global.danied = '✘ 𝗘𝗥𝗢𝗥 𝟰𝟬𝟰'
-global.ultahowner = 'Agustus 9 2009'
+global.titlebot = `©Saxia˘Botz | ʙʏ ${global.nameown}`
+global.author = '©Saxia˘Botz' 
+global.packname = 'Bot By KaXel-XD'
+global.danied = '✘EROR 404✘'
+global.ultahowner = 'ytta'
 
 
 /*============== LOGO ==============*/
-global.thumb = 'https://telegra.ph/file/c744e9d823ae3db3fd159.jpg' //Main Thumbnail
+global.thumb = 'https://i.pinimg.com/originals/e9/d5/46/e9d5466eed88731e3dd4211d2cc89c9b.jpg' //Main Thumbnail
 global.imagebot = 'https://telegra.ph/file/06c4e93a3d3f388b2642d.jpg'
-global.giflogo = 'https://i.ibb.co/jfZVKmC/babi2.jpg'
-global.giflogo2 = 'https://telegra.ph/file/6ab4daac226292a112540.jpg'
+global.giflogo = 'https://i.pinimg.com/originals/e9/d5/46/e9d5466eed88731e3dd4211d2cc89c9b.jpg'
+global.giflogo2 = 'https://i.pinimg.com/originals/50/3a/f4/503af49701fa85b7c938d8e54ffa1549.jpg'
 global.thumbs = ['https://telegra.ph/file/7db49c83fd106a60741cd.jpg']
 global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&text='
 global.thumbBanned = 'https://telegra.ph/file/77d11b06617f0797a45ac.jpg'
@@ -126,15 +126,15 @@ global.thumbWarn = 'https://telegra.ph/file/77d11b06617f0797a45ac.jpg'
 global.botintro = 'Hallo, Kenalin saya Maxxy BOT Saya akan membantu Anda kapan pun & Dimana pun, Saya asisten bot WhatsApp yang di buat oleh *ᴋᴀʜꜰɪ ᴍᴀᴋᴇʀ✓* Saya di rilis pada tanggal\n🗓 ️_07/11/2022_'
 global.intro = 'https://telegra.ph/file/6ab4daac226292a112540.jpg'
 /*============== GLOBAL BIO ==============*/
-global.nameowner = 'Kasan'
-global.umurowner = '14'
-global.asalowner = 'Brebes Jawa tengah, Indonesia'
+global.nameowner = 'Kasan And Xell'
+global.umurowner = '--'
+global.asalowner = 'Jateng And Jatim Indonesia'
 global.nomorowner = 'wa.me/628564114289'
-global.pacarowner = 'Kepo amat sih;v'
+global.pacarowner = 'YTTA'
 
 /*============== TEXT ==============*/
-global.wait = '```𝙇𝙤𝙖𝙙𝙞𝙣𝙜...```'
-global.eror = '```𝙉𝙤𝙩 𝙁𝙤𝙪𝙣𝙙 𝟰𝟬𝟰 𝙀𝙧𝙤𝙧```'
+global.wait = '```「 Loading... 」```'
+global.eror = '```404 error```'
 
 /*=========== TYPE DOCUMENT ===========*/
 global.dpptx = 'application/vnd.openxmlformats-officedocument.presentationml.presentation'
@@ -160,16 +160,16 @@ global.hiasan = '꒦ ͝ ꒷ ͝ ꒦ ͝ ꒷ ͝ ꒦ ͝ ꒷ ͝ ꒦ ͝ ꒷ ͝ ꒦ ͝ 
 // COMMAND MENU
 global.cmenut = '––––––『' //top
 global.cmenuh = '』––––––' //header
-global.cmenub = '┊☃︎ ' //body
+global.cmenub = '┊↬ ' //body
 global.cmenuf = '┗━═┅═━––––––๑\n' //footer
 global.cmenua = '' //after
-global.pmenus = '☃︎' //pembatas menu selector
+global.pmenus = '↬' //pembatas menu selector
 
 global.htki = '––––『' //hiasan title kiri
 global.htka = '』––––' //hiasan title kanan
 global.lopr = 'Ⓟ'
 global.lolm = 'Ⓛ'
-global.htjava = '❃' //hiasan Doang :v
+global.htjava = '⛶' //hiasan Doang :v
 
 global.flaaa = [
 'https://flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=water-logo&script=water-logo&fontsize=90&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextColor=%23000&shadowGlowColor=%23000&backgroundColor=%23000&text=',
@@ -379,7 +379,7 @@ global.hwaifu = ['https://i.pinimg.com/originals/ed/34/f8/ed34f88af161e6278993e1
 'https://i.pinimg.com/originals/80/4f/1a/804f1a05f9996c96a2d492b4854b7fd5.jpg']
 /*============== STICKER WM ==============*/
 global.stickpack = 'ᴍᴀᴅᴇ ʙʏ'
-global.stickauth = `ᴋᴀʜꜰɪ ᴍᴀᴋᴇʀ✓`
+global.stickauth = `wa.me/6283111136642`
 
 global.multiplier = 38 // The higher, The harder levelup
 
