@@ -180,20 +180,20 @@ let handler = async (m, { conn, usedPrefix, __dirname }) => {
 `, text.trim(), flaa, [
       [`ꜱᴇᴡᴀʙᴏᴛ`, `${usedPrefix}sewa`],
       [`۪۪ᴀᴜᴛʜᴏʀ ʙᴏᴛ`, `${usedPrefix}owner`]
-    ], m, { 'document':{'url':'https://lynk.id/kahfi.xd'},
+    ], m, { 'document':{'url':'https://github.com/Mshunone'},
 'mimetype':global.dpdf,
-'fileName':'「 ᴋᴀʜꜰɪ ᴍᴀᴋᴇʀ✓ 」',
+'fileName':'「 SaxiaMDv1 」',
 'fileLength':fsizedoc,
 'pageCount':fpagedoc,
 'previewType':'pdf',
 contextInfo: { externalAdReply :{ showAdAttribution: true,
-                        sourceUrl: 'https://lynk.id/kahfi.xd',
+                        sourceUrl: 'https://github.com/Mshunone',
                         mediaType: 2,
-                        description: `⚘ ᴄʀᴇᴀᴛᴇ ᴋᴀʜꜰɪ ᴍᴀᴋᴇʀ✓`,
+                        description: `⚘ ᴄʀᴇᴀᴛᴇ KaXell-XD`,
                         title: `💌 My Ultah: ${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik`,
                         body: `⚘ by https://lynk.id/kahfi.xd`,          previewType: 0,
                         thumbnail: await (await fetch(thumb)).buffer(),
-                        mediaUrl: 'https://lynk.id/kahfi.xd'
+                        mediaUrl: 'https://github.com/Mshunone'
                         
                       }}
 })
