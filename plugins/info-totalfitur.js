@@ -15,7 +15,7 @@ let totalf = Object.values(global.plugins).filter(
 contextInfo: { externalAdReply :{ showAdAttribution: true,
                         sourceUrl: 'https://chat.whatsapp.com/GeWPLmclHaVHsF0GymCcJz',
                         mediaType: 2,
-                        description: `⚘ ᴄʀᴇᴀᴛᴇ ᴹᴿ᭄ King Of Bear ×፝֟͜×`,
+                        description: `⚘ ᴄʀᴇᴀᴛᴇ 「 SaxiaV1Botz 汉  」`,
                         title: `💌 Owner : ${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik`,
                         body: `🎋 ┊ 𝗥𝗣𝗚 ʙᴏᴛ ᴡʜᴀᴛsᴀᴘᴘ`,          previewType: 0,
                         thumbnail: await (await fetch(giflogo2)).buffer(),
