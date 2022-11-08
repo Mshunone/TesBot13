@@ -36,7 +36,7 @@ let text = `━━❏〔 *𝚂𝙴𝚆𝙰 & 𝙿𝚁𝙴𝙼𝙸𝚄𝙼* 〕�
 ┗━━ꕥ *${author}* ꕥ━⬣
 `
 const templateButtons = [
-    {index: 1, urlButton: {displayText: 'Klick untuk SEWA', url: `https://wa.me/62856411142178?text=Hallo admin, saya tertarik untuk menyewa bot ${namebot}`}},
+    {index: 1, urlButton: {displayText: 'Klick untuk SEWA', url: `https://wa.me/6285641142178?text=Hallo admin, saya tertarik untuk menyewa bot ${namebot}`}},
     {index: 4, quickReplyButton: {displayText: 'Owner', id: '.owner'}},
 ]
 let tm = {
