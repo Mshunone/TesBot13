@@ -11,21 +11,19 @@ let handler = async (m, { conn, usedPrefix }) => {
     const detek = Math.floor( Kurang % (1000 * 60) / 1000)
   let vn = `https://github.com/saipulanuar/Api-Github/raw/main/audio/Donasiku.mp3`
   conn.sendButton(m.chat, `
-┏━ꕥ〔 *Donasi • Dana* 〕ꕥ━⬣
-┃✾ Gopay  [088279268363]
-┃✾ Dana  [088279268363]
-┃✾ Saweria  [https://saweria.co/raraharsita2]
-┗━━━━ꕥ
-┏━━ꕥ〔 *NOTE* 〕ꕥ━⬣
-┃ Ingin donasi? Wa.me/6288279268363
-┃ _Hasil donasi akan digunakan buat sewa_
-┃ _atau beli *RDP/VPS* agar bot bisa jalan_
-┃ _24jam tanpa kendala_
+┏━ꕥ〔 *DONASI • ALL PEYMENT* 〕ꕥ━⬣
+┃✾ Donasi ya donasi suk
+┃✾ Donasi lah bangsa
+┃  Yg donasi boleh req foto 
+┃  buat di pajang katalog bot 
+┃  selama 7d + Free Prem user 7d
+┃
+┃✾> QRISH [ https://i.pinimg.com/564x/57/5c/8c/575c8cf89faea4a22e2bb0eacc12ffcc.jpg ]
 ┗━━━━ꕥ
 `.trim(), wm, [['Owner',`/owner`]],m) // Tambah sendiri kalo mau
 conn.sendFile(m.chat, vn, 'haori.mp3', null, m, true, {
 type: 'audioMessage', 
-ptt: true, contextInfo:{ externalAdReply: { title: `💌 Ultah Owner : ${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik`, body: `Follow Tiktok My Bestie`, sourceUrl: 'https://www.tiktok.com/@raraharsita2', thumbnail: await (await fetch('https://i.ibb.co/jfZVKmC/babi2.jpg')).buffer(),}} 
+ptt: true, contextInfo:{ externalAdReply: { title: `💌 Owner : ${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik`, body: `Follow Tiktok My Bestie`, sourceUrl: 'https://www.tiktok.com/@raraharsita2', thumbnail: await (await fetch('https://i.ibb.co/jfZVKmC/babi2.jpg')).buffer(),}} 
      }) 
 }
 handler.command = /^(pay|payment|bayar)$/i
