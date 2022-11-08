@@ -57,7 +57,8 @@ import moment from 'moment-timezone'
 CHEK KATALOG BOT JIKA EMANG MAU TAU
 cht owner jika serius.
 
-=> BACA INI DULU SUK <=
+🫵=> BACA INI DULU SUK <=👇
+
 1.➠ Sewa (Join Grup) harga 100K / Permanent dan apabila bot di kick dari grup sengaja atau tidak sengaja tidak bisa di join kan lagi (Hangus).
 
 2.➠ Pembayaran saat ini hanya tersedia via Dana.
