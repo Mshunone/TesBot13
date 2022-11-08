@@ -14,7 +14,7 @@ import moment from 'moment-timezone'
     surface : 404,
     message: `${ucapan()}`,
     orderTitle: `${ucapan()}`,
-    thumbnail:   await (await fetch(`https://i.ibb.co/jfZVKmC/babi2.jpg`)).buffer(),
+    thumbnail:   await (await fetch(`https://i.pinimg.com/originals/e9/d5/46/e9d5466eed88731e3dd4211d2cc89c9b.jpg`)).buffer(),
     sellerJid: '0@s.whatsapp.net' 
     }
     }
@@ -23,29 +23,29 @@ import moment from 'moment-timezone'
   const sections = [ 
                  { 
                    "rows": [{ 
-                     "title": `Pemilik Bot`, 
+                     "title": `😎 Pemilik Bot`, 
                      "description": "Nomor Pemilik Bot (owner)", 
                      "rowId": `${usedPrefix}creator` 
                    }, { 
-                     "title": "Syarat Ketentuan dan Peraturan", 
+                     "title": "👾 Syarat Ketentuan dan Peraturan", 
                      "description": "Harap membaca Peraturan demi kenyamanan kita bersama", 
                      "rowId": `${usedPrefix}donasi` 
                    }, { 
-                     "title": `Group Official ${namebot} Bot`, 
+                     "title": `🪐 Group Official ${namebot} Bot`, 
                      "description": "Gabung untuk mendapatkan informasi mengenai bot atau sekedar meramaikan", 
                      "rowId": `${usedPrefix}gcbot` 
                    }], 
                    "title": "Informasi Bot" 
                  }, { 
                    "rows": [{ 
-                     "title": `Free Trial 1 Hari`, 
-                     "description": "Masukkan bot secara gratis selama 1 Hari", 
-                     "rowId": `${usedPrefix}join` 
+                     "title": `🌹 Sewa?`, 
+                     "description": "5k/Bulan dan seterus nya!", 
+                     "rowId": `${usedPrefix}owner` 
                      }], 
                    "title": "────────「 Trial 」" 
                  }, { 
                      "rows": [{ 
-                       "title": `Permanent! Rp50.000`, 
+                       "title": `🤑 Permanen ! Rp100.000`, 
                        "description": "Masukkan bot ke dalam group tanpa batasann waktu!", 
                        "rowId": ".masuk"
                    }], 
@@ -54,17 +54,23 @@ import moment from 'moment-timezone'
                ]
          const listMessage = {
       text: `*❏ SEWA BOT*
-Untuk fitur bot bisa baca menu sampai selesai ya kak, dicoba coba dulu biar tau ( Ketik *.menu* )
-Silahkan hubungi owner ( Ketik *.owner* ) jika ingin menyewa bot untuk grup chat kalian
+CHEK KATALOG BOT JIKA EMANG MAU TAU
+cht owner jika serius.
 
-➠ Sewa (Join Grup) harga 50K / Permanent dan apabila bot di kick dari grup sengaja atau tidak sengaja tidak bisa di join kan lagi (Hangus).
-➠ Pembayaran saat ini hanya tersedia via Dana.
-➠ Proses transaksi seperti pada umumnya, chat owner terlebih dahulu untuk menanyakan nomor tujuan transfer setelah itu screenshot bukti pembayaran.
-➠ *Penting!* simpan nomor owner dan join ke dalam grup official dibawah untuk mengetahui update nomor bot terbaru apabila ter-banned.
-➠ Bot bisa di pindah pin
-dah Grup (berlaku untuk yang sewa) kedalam grup lain (hanya 1 grup)
-➠ Maaf untuk yang sudah Transfer tidak dapat di Refund/dibatalkan
-➠ Membeli/Sewa berarti Setuju dalam Persyaratan tersebut`,
+=> BACA INI DULU SUK <=
+1.➠ Sewa (Join Grup) harga 100K / Permanent dan apabila bot di kick dari grup sengaja atau tidak sengaja tidak bisa di join kan lagi (Hangus).
+
+2.➠ Pembayaran saat ini hanya tersedia via Dana.
+
+3.➠ Proses transaksi seperti pada umumnya, chat owner - Bayar - ss bukti - Done.
+
+4.➠ *Penting!* sv no owner atau join grup official dibawah untuk mengetahui update nomor bot terbaru apabila ter-banned.
+
+5.➠ Bot bisa di pindah pindah Grup (berlaku untuk yang sewa) kedalam grup lain (hanya 1 grup)
+
+6.➠ Maaf untuk yang sudah Transfer tidak dapat di Refund/dibatalkan
+
+7.➠ Membeli/Sewa berarti Setuju dalam Persyaratan tersebut`,
       footer: wm,
       mentions: await conn.parseMention(judul),
       title: judul.trim(),
