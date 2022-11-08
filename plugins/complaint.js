@@ -13,13 +13,13 @@ const message = {
                 {
                     urlButton: {
                         displayText: 'Customer Service',
-                        url: 'wa.me/6288279268363',
+                        url: 'wa.me/6285641142178',
                     }
                 },
                 {
                     urlButton: {
                         displayText: '📞 Owner',
-                        url: 'https://wa.me/6288279268363',
+                        url: 'https://wa.me/6283805685278',
 
                     }
                 },
