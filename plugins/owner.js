@@ -16,7 +16,7 @@ let handler = async(m, { conn, text, usedPrefix, command }) => {
     surface : 404,
     message: `Nih My Mastah :3`, 
     orderTitle: ``,
-    thumbnail: await conn.resize(await (await fetch('https://i.ibb.co/jfZVKmC/babi2.jpg')).buffer(), 300, 200) //Gambarnye
+    thumbnail: await conn.resize(await (await fetch('https://i.pinimg.com/originals/e9/d5/46/e9d5466eed88731e3dd4211d2cc89c9b.jpg')).buffer(), 300, 200) //Gambarnye
 
     }
     }
@@ -39,24 +39,24 @@ let handler = async(m, { conn, text, usedPrefix, command }) => {
     const detek = Math.floor( Kurang % (1000 * 60) / 1000)
 let cap = `Hay kak @${await m.sender.split('@')[0]}, itu nomor ownerku jangan dispam yah ^_^` 
   let buttonMessage= {
-'document':{'url':'https://youtu.be/hklv-Ysqqac'},
+'document':{'url':'https://chat.whatsapp.com/GeWPLmclHaVHsF0GymCcJz'},
 'mimetype':global.ddocx,
-'fileName':'「 XioSan Bot 」',
+'fileName':'「 SaxiaV1Botz 汉  」',
 'fileLength':fsizedoc,
 'pageCount':fpagedoc,
 'contextInfo':{
 'forwardingScore':555,
 'isForwarded':true,
 'externalAdReply':{
-'mediaUrl':'https://youtube.com/channel/UC2ksImByAMVpCuP6v_PUVbg',
+'mediaUrl':'https://youtube.com',
 'mediaType':2,
 'previewType':'pdf',
-'title':`💌 Ultah Owner: ${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik`,
-'body':`⚘ by XiaoSan Bot`,
+'title':`💌 Owner: ${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik`,
+'body':`⚘ by KaXell-XD`,
 'thumbnail': await(await fetch(thumb)).buffer(),
-'sourceUrl':'https://youtube.com/shorts/vUOipISAheA?feature=share'}},
+'sourceUrl':'https://chat.whatsapp.com/GeWPLmclHaVHsF0GymCcJz'}},
 'caption':cap,
-'footer':`Itu Owner Ku Yah Kak Jangan Sungkem Untuk Chat ;3
+'footer':`Itu Owner Xia Jan di spam ya jan sungkem untuk cht: )
 
 ${botdate}`,
 'buttons':[
