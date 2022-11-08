@@ -133,7 +133,7 @@ ${readMore}
 - *s ᴇ ʀ ᴠ ᴇ ʀ* -
 *🛑 Rᴀᴍ:* ${ramUsed} / ${_ramTotal}(${/[0-9.+/]/g.test(ramUsed) &&  /[0-9.+/]/g.test(ramTotal) ? Math.round(100 * (ramUsed / ramTotal)) + '%' : NotDetect})
 *🔵 FʀᴇᴇRᴀᴍ:* ${format(freemem())}
-
+----------------------------------
 *🔭 ᴘʟᴀᴛғᴏʀᴍ:* ${os.platform()}
 *🧿 sᴇʀᴠᴇʀ:* ${os.hostname()}
 *💻 ᴏs:* ${OS}
