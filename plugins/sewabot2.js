@@ -1,24 +1,22 @@
 let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
-let url = 'https://telegra.ph/file/c744e9d823ae3db3fd159.jpg'
-let text = `━━ꕥ〔 *𝚂𝙴𝚆𝙰 & 𝙿𝚁𝙴𝙼𝙸𝚄𝙼* 〕ꕥ━⬣
+let url = 'https://i.pinimg.com/originals/e9/d5/46/e9d5466eed88731e3dd4211d2cc89c9b.jpg'
+let text = `━━❏〔 *𝚂𝙴𝚆𝙰 & 𝙿𝚁𝙴𝙼𝙸𝚄𝙼* 〕❏━⬣
 
-┏━ꕥ〔 𝙷𝙰𝚁𝙶𝙰 𝚂𝙴𝚆𝙰 〕
+┏┅═┅═❏ *SEWA BOT* ❏═┅═┅
 ┃
-┃✾ 15 ʜᴀʀɪ 10ᴋ / ɢʀᴏᴜᴘ
-┃✾ 30 ʜᴀʀɪ 15ᴋ / ɢʀᴏᴜᴘ
-┃✾ 45 ʜᴀʀɪ 25ᴋ / ɢʀᴏᴜᴘ
-┃✾ 60 ʜᴀʀɪ 30ᴋ / ɢʀᴏᴜᴘ
-┃✾ ᴘᴇʀᴍᴀɴᴇɴ 50ᴋ / ɢʀᴏᴜᴘ 
+┃✾ 7 HARI 1ᴋ / Group
+┃✾ 1 BULAN 5ᴋ / ɢʀᴏᴜᴘ
+┃✾ 1 TAHUN 65ᴋ / ɢʀᴏᴜᴘ
+┃✾ ᴘᴇʀᴍᴀɴᴇɴ 100ᴋ / ɢʀᴏᴜᴘ 
 ┃
 ┗━━ꕥ *${author}* ꕥ━⬣
 
-┏━ꕥ〔 𝙷𝙰𝚁𝙶𝙰 𝙿𝚁𝙴𝙼𝙸𝚄𝙼 〕
-┃
-┃✾ 15 ʜᴀʀɪ 10ᴋ 
-┃✾ 30 ʜᴀʀɪ 15ᴋ 
-┃✾ 45 ʜᴀʀɪ 25ᴋ 
-┃✾ 60 ʜᴀʀɪ 30ᴋ 
-┃✾ ᴘᴇʀᴍᴀɴᴇɴ 50ᴋ
+┏┅═┅═❏ *PREM BOT* ❏═┅═┅
+┃ 
+┃✾ 7 HARI 5ᴋ 
+┃✾ 1 BULAN 10ᴋ 
+┃✾ 1 TAHUN 70ᴋ 
+┃✾ ᴘᴇʀᴍᴀɴᴇɴ 150ᴋ
 ┃
 ┗━━ꕥ *${author}* ꕥ━⬣
 
@@ -38,7 +36,7 @@ let text = `━━ꕥ〔 *𝚂𝙴𝚆𝙰 & 𝙿𝚁𝙴𝙼𝙸𝚄𝙼* 〕�
 ┗━━ꕥ *${author}* ꕥ━⬣
 `
 const templateButtons = [
-    {index: 1, urlButton: {displayText: 'Klick untuk berlangganan', url: `https://wa.me/6285380166282?text=Hallo admin, saya tertarik untuk menyewa bot ${namebot}`}},
+    {index: 1, urlButton: {displayText: 'Klick untuk SEWA', url: `https://wa.me/62856411142178?text=Hallo admin, saya tertarik untuk menyewa bot ${namebot}`}},
     {index: 4, quickReplyButton: {displayText: 'Owner', id: '.owner'}},
 ]
 let tm = {
