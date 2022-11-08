@@ -14,7 +14,7 @@ import moment from 'moment-timezone'
     surface : 404,
     message: `${ucapan()}`,
     orderTitle: `${ucapan()}`,
-    thumbnail:   await (await fetch(`https://i.ibb.co/jfZVKmC/babi2.jpg`)).buffer(),
+    thumbnail:   await (await fetch(`https://i.pinimg.com/originals/e9/d5/46/e9d5466eed88731e3dd4211d2cc89c9b.jpg`)).buffer(),
     sellerJid: '0@s.whatsapp.net' 
     }
     }
@@ -38,7 +38,7 @@ import moment from 'moment-timezone'
                   }
                ]
          const listMessage = {
-      text: `Asupan Tiktok Real Account`,
+      text: `Asupan Tiktok Dulu coy`,
       footer: wm,
       mentions: await conn.parseMention(judul),
       title: judul.trim(),
