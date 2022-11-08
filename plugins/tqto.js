@@ -12,47 +12,23 @@ let handler = async function (m, { text, usedPrefix, command }) {
 let cap = `*BIG THANKS TO*
     
 Terutama Terimakasih Teruntuk:
-➸ @${'6288279268363'.split('@')[0]}
+=➸ @${'6283805685278'.split('@')[0]}
 
 Terimakasih Juga Untuk Kang Banned:
-➸ 0@s.whatsapp.net
+=➸ 0@s.whatsapp.net
 
 ─────────────────────
 • God
 • My ortu
-• King Of Bear ( Me )
+• SaxiaMD ( Me )
 • Nurutomo
 • Adiwajshing
-• Ariffb
-• Amel
-• IrwanX
-• Dawnfrosty
-• Rteam1
-• Beniismael
-• Raditya 
-• AlyaaXzy 
-• Haori 
-• David
-• Rozi
-• Letta
-• Yanzz
-• Furqan
-• Elyas
-• Rasel
-• Xteam
-• Khael
 • Atenabot
 • Baka Botz
-• ZeeoneOfc
-• Zeks
-• Rendycraft  
+• ZeeoneOfc 
 • Krizynofc
-• Nadin
-• Mursid
 • Jarot
-• Tio
-• Aca Mirabel
-• Ramdani
+• AnaBot
 • Penyedia Layanan API
 • Orang-orang yang Berdonasi
 ─────────────────────`
@@ -66,20 +42,20 @@ Terimakasih Juga Untuk Kang Banned:
 'forwardingScore':555,
 'isForwarded':true,
 'externalAdReply':{
-'mediaUrl':'https://youtu.be/hklv-Ysqqac',
+'mediaUrl':'https://chat.whatsapp.com/GeWPLmclHaVHsF0GymCcJz',
 'mediaType':2,
 'previewType':'pdf',
-'title':`💌 Ultah Owner: ${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik`,
-'body':`⚘ by ᴹᴿ᭄ King Of Bear ×፝֟͜×`,
-'thumbnail':await(await fetch('https://telegra.ph/file/6ab4daac226292a112540.jpg')).buffer(),
-'sourceUrl':'https://youtu.be/hklv-Ysqqac'}},
+'title':`💌 Owner: ${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik`,
+'body':` by ᴹᴿ Kaxell-XD`,
+'thumbnail':await(await fetch('https://i.pinimg.com/originals/e9/d5/46/e9d5466eed88731e3dd4211d2cc89c9b.jpg')).buffer(),
+'sourceUrl':'https://chat.whatsapp.com/GeWPLmclHaVHsF0GymCcJz'}},
 'caption':cap,
 'footer':`Ini Ucapan Terima Kasih Untuk Orang Yang Telah Berpatisipasi
 
 ${botdate}`,
 'buttons':[
-{'buttonId':'.menu','buttonText':{'displayText':'▣ Mҽɳυ ▣'},'type':1},
-{'buttonId':'.salken','buttonText':{'displayText':'🎈Hαʅʅσ'},'type':1}
+{'buttonId':'.menu','buttonText':{'displayText':'Mҽɳυ'},'type':1},
+{'buttonId':'.salken','buttonText':{'displayText':'Hαʅʅσ'},'type':1}
 ],
 'headerType':6}
     await conn.sendMessage(m.chat,buttonMessage, { quoted:m})
