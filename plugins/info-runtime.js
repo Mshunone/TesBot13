@@ -14,7 +14,7 @@ const time = moment.tz('Asia/Jakarta').format('HH')
     const onet = Math.floor( Kurang % (1000 * 60 * 60) / (1000 * 60))
     const detek = Math.floor( Kurang % (1000 * 60) / 1000)
   let name = await conn.getName(m.sender)
-  let runnya = `┏━━━ꕥ〔 *RUNTIME BOT* 〕ꕥ━⬣
+  let runnya = `┏━━━❏〔 *RUNTIME BOT* 〕❏━⬣
 ┃✾ ⏲️ Waktu: ${time} WIB
 ┃✾ 💌 Aktif Selama : ${uptime}
 ┃✾ 🌹 Tag : ${name}
@@ -28,16 +28,16 @@ const time = moment.tz('Asia/Jakarta').format('HH')
       }) * 1000
     }
     let muptime = clockString(_muptime)
- await conn.sendButton(m.chat, runnya,wm + '\n\n' + botdate, intro, [['🥞MENU','.listmenu']], m, {
+ await conn.sendButton(m.chat, runnya,wm + '\n\n' + botdate, intro, [['MENU','.listmenu']], m, {
         contextInfo: {
             externalAdReply: {
                 mediaUrl: '',
                         mediaType: 2,
                         description: 'anu',
-                        title: `💌 Ultah Owner : ${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik`,
-                        body: `Subscribe YT My Bestie`,                                       previewType: 0,
-                        thumbnail: await (await fetch(`https://i.ibb.co/jfZVKmC/babi2.jpg`)).buffer(),
-                        sourceUrl: 'https://youtu.be/hklv-Ysqqac'
+                        title: `💌 Owner : ${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik`,
+                        body: `Join su`,                                       previewType: 0,
+                        thumbnail: await (await fetch(`https://i.pinimg.com/originals/e9/d5/46/e9d5466eed88731e3dd4211d2cc89c9b.jpg`)).buffer(),
+                        sourceUrl: 'https://chat.whatsapp.com/GeWPLmclHaVHsF0GymCcJz'
             }
         }
     })
