@@ -9,7 +9,7 @@ let handler = async (m, { text }) => {
 ${conn.getName(m.sender)} is now AFK
 
 ʀᴇᴀsᴏɴ: ${text ? '' + text : 'undefined'}`, null, null, null, null, null, [
-[`ʏɢ ᴀꜰᴋ ᴅɪ ʙᴜʟʟʏ`, `Ok`]
+[`Buset AFK`, `Ok`]
 ], m)
 }
 handler.help = ['afk [reason]']
