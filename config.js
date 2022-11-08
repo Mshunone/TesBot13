@@ -53,7 +53,6 @@ global.nameown = 'KaXel-XD'
 /*============== STAFF ==============*/
 global.owner = [
   ['6285641142178', 'KaXel-XD', 'true']
-  ['6283805685278', 'KaXeS-XD', 'true']
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 global.mods = [] // Want some help?
