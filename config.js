@@ -46,13 +46,14 @@ global.psaweria = 'https://i.pinimg.com/564x/57/5c/8c/575c8cf89faea4a22e2bb0eacc
 /*============== NOMOR ==============*/
 global.nomorbot = '6283111136642'
 global.nomorown = '6285641142178'
-global.namebot = '©Saxia˘Botz'
+global.namebot = '「©SaxiaV1˘Botz 汉」'
 global.nameown = 'KaXel-XD'
 
 
 /*============== STAFF ==============*/
 global.owner = [
   ['6285641142178', 'KaXel-XD', 'true']
+  ['6283805685278', 'KaXeS-XD', 'true']
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 global.mods = [] // Want some help?
@@ -102,15 +103,15 @@ global.bear = 'VBkM7rbU'
 
 
 /*============== WATERMARK ==============*/
-global.wm = '©Saxia˘Botz | By KaXel-XD' //Main Watermark
-global.wm2 = '©Saxia˘Botz'
+global.wm = '「©Saxia˘Botz」 | By KaXel-XD' //Main Watermark
+global.wm2 = '「SaxiaV1˘Botz 汉」'
 global.wm3 = '©Saxia˘Botz | Wa.me/6283111136642'
 global.botdate = `⻝ 𝗗𝗮𝘁𝗲: ${week} ${date}\n⻝ 𝗧𝗶𝗺𝗲: ${wktuwib}`
 global.bottime = `⻝ 𝗧 𝗜 𝗠 𝗘 : ${wktuwib}`
 global.titlebot = `©Saxia˘Botz | ʙʏ ${global.nameown}`
 global.author = '©Saxia˘Botz' 
 global.packname = 'Bot By KaXel-XD'
-global.danied = '✘EROR 404✘'
+global.danied = '✘ EROR 404 ✘'
 global.ultahowner = 'ytta'
 
 
@@ -128,7 +129,7 @@ global.intro = 'https://telegra.ph/file/6ab4daac226292a112540.jpg'
 /*============== GLOBAL BIO ==============*/
 global.nameowner = 'Kasan And Xell'
 global.umurowner = '--'
-global.asalowner = 'Jateng And Jatim Indonesia'
+global.asalowner = 'Jateng And Jatim. Indonesia'
 global.nomorowner = 'wa.me/628564114289'
 global.pacarowner = 'YTTA'
 
