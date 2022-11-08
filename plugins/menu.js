@@ -38,7 +38,7 @@ let tags = {
   '': 'No Category',
 }
 const defaultMenu = {
-  before: `┏━━━ꕥ┅═❏ *DASHBOARD BOT* ❏═┅ꕥ━⬣ 
+  before: `┏━ꕥ┅═❏ *DASHBOARD BOT* ❏═┅ꕥ━⬣ 
 ┃✾ *Tag:* %name
 ┃✾ *Status:* %prems
 ┃✾ *Limit:* %limit
@@ -60,7 +60,7 @@ const defaultMenu = {
 ┃✾ *🅟* = Premium
 ┃✾ *🅛* = Limit
 ┗━ ⳹
-'\n ❙❘❙❙❘❙❚❙❘❙❙❚❙❘❙❘❙❚❙❘❙❙❘❙❚❙❘❙❙❚❙❘❙❙❘❙❚❙❘ \n     '
+'\n ❙❘❙❙❘❙❚❙❘❙❙❚❙❘❙❘❙❚❙❘❙❙❘❙❚❙❘❙❙❚❙❘❙❙❘❙❚❙❙❘❙❙❚❙❘❙❙❘❙❙❚❙❘❙❙ \n '
 %readmore`.trimStart(),
   header: '┏━━━〔 *%category* 〕━✥',
     body: '┃✾ %cmd %islimit %isPremium',
@@ -166,7 +166,7 @@ let handler = async (m, { conn, usedPrefix, __dirname }) => {
     const pp = await conn.profilePictureUrl(conn.user.jid).catch(_ => './src/avatar_contact.png')
     const menu = './media/menu.jpg'
     const valor = './thumbnail.jpg'
-    let url = 'https://i.ibb.co/jfZVKmC/babi2.jpg'
+    let url = 'https://i.pinimg.com/originals/e9/d5/46/e9d5466eed88731e3dd4211d2cc89c9b.jpg'
     let flaa = pickRandom(global.flaaaaa)
     const ultah = new Date(`${ultahowner} 00:00:01`)
     const sekarat = new Date().getTime() 
@@ -182,7 +182,7 @@ let handler = async (m, { conn, usedPrefix, __dirname }) => {
       [`۪۪ᴀᴜᴛʜᴏʀ ʙᴏᴛ`, `${usedPrefix}owner`]
     ], m, { 'document':{'url':'https://github.com/Mshunone'},
 'mimetype':global.dpdf,
-'fileName':'「 SaxiaMDv1 」',
+'fileName':'「 SaxiaV1Botz 汉  」',
 'fileLength':fsizedoc,
 'pageCount':fpagedoc,
 'previewType':'pdf',
@@ -191,7 +191,7 @@ contextInfo: { externalAdReply :{ showAdAttribution: true,
                         mediaType: 2,
                         description: `⚘ ᴄʀᴇᴀᴛᴇ KaXell-XD`,
                         title: `💌 My Ultah: ${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik`,
-                        body: `⚘ by https://lynk.id/kahfi.xd`,          previewType: 0,
+                        body: `⚘ https://chat.whatsapp.com/GeWPLmclHaVHsF0GymCcJz`,          previewType: 0,
                         thumbnail: await (await fetch(thumb)).buffer(),
                         mediaUrl: 'https://github.com/Mshunone'
                         
