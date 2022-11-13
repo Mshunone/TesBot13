@@ -1,6 +1,6 @@
 let handler = async (m, { conn, args, usedPrefix, command }) => {
 
-if (!args[0] || !args[1] || !args[2] || !args[3]) throw `.setchattime 6288279268363 2022-04-30 15:30 hola`
+if (!args[0] || !args[1] || !args[2] || !args[3]) throw `.setchattime 6283805685278 2022-04-30 15:30 hola`
 
 let obj = { 
 tanggal: `${args[1]}`, 
