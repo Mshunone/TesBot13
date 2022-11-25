@@ -56,10 +56,7 @@ let cap = `Nih @${await m.sender.split('@')[0]}, itu nomor Owner, klo cht yg ben
 'thumbnail': await(await fetch(thumb)).buffer(),
 'sourceUrl':'https://chat.whatsapp.com/GeWPLmclHaVHsF0GymCcJz'}},
 'caption':cap,
-'footer':`- Owner tak terima sv sv an
-- Bicara menggunakan kata sopan
-- Awali salam atau langsung
-- Owner akan membalas yg berhub dgn bot`
+'footer':`Cht yg bener`
 
 ${botdate}`,
 'buttons':[
