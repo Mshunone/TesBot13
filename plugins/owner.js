@@ -37,7 +37,7 @@ let handler = async(m, { conn, text, usedPrefix, command }) => {
     const ojam = Math.floor( Kurang % (1000 * 60 * 60 * 24) / (1000 * 60 * 60))
     const onet = Math.floor( Kurang % (1000 * 60 * 60) / (1000 * 60))
     const detek = Math.floor( Kurang % (1000 * 60) / 1000)
-let cap = `Hay kak @${await m.sender.split('@')[0]}, itu nomor ownerku jangan dispam yah ^_^` 
+let cap = `Nih @${await m.sender.split('@')[0]}, itu nomor Owner, klo cht yg bener` 
   let buttonMessage= {
 'document':{'url':'https://chat.whatsapp.com/GeWPLmclHaVHsF0GymCcJz'},
 'mimetype':global.ddocx,
@@ -56,7 +56,10 @@ let cap = `Hay kak @${await m.sender.split('@')[0]}, itu nomor ownerku jangan di
 'thumbnail': await(await fetch(thumb)).buffer(),
 'sourceUrl':'https://chat.whatsapp.com/GeWPLmclHaVHsF0GymCcJz'}},
 'caption':cap,
-'footer':`Itu Owner Xia Jan di spam ya jan sungkem untuk cht: )
+'footer':`- Owner tak terima sv sv an
+- Bicara menggunakan kata sopan
+- Awali salam atau langsung
+- Owner akan membalas yg berhub dgn bot`
 
 ${botdate}`,
 'buttons':[
