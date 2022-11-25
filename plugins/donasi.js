@@ -11,14 +11,14 @@ let handler = async (m, { conn, usedPrefix }) => {
     const detek = Math.floor( Kurang % (1000 * 60) / 1000)
   let vn = `https://github.com/saipulanuar/Api-Github/raw/main/audio/Donasiku.mp3`
   conn.sendButton(m.chat, `
-┌─「 Donasi • Pulsa 」
-│ • Ga dulu coy
+┌─「 Donasi • Scan!! 」
+│ https://wa.me/p/6025335327476607/6283111136642
 ❏────
 ┌─「 Donasi • Non Pulsa 」
 │ • Chek Katalog
 ┃ Ingin donasi? Chek katalog
 ┃ _Hasil donasi akan digunakan buat sewa_
-┃ _atau beli *RDP/PANEL* agar bot bisa jalan_
+┃ _atau beli *RDP/PANEL* agar bot ttp on_
 ┃ _24jam tanpa kendala_
 ┗━━━━•
 `.trim(), wm, [['Owner',`/owner`]],m) // Tambah sendiri kalo mau
